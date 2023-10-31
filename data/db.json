@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "Welcome party!",
+      "body": "The emergence and growth of blogs in the late 1990s coincided with the advent of web publishing tools that facilitated the posting of content by non-technical users who did not have much experience with HTML or computer programming. Previously, knowledge of such technologies as HTML and File Transfer Protocol had been required to publish content on the Web, and early Web users therefore tended to be hackers and computer enthusiasts. As of the 2010s, the majority are interactive Web 2.0 websites, allowing visitors to leave online comments, and it is this interactivity that distinguishes them from other static websites.[2] In that sense, blogging can be seen as a form of social networking service. Indeed, bloggers not only produce content to post on their blogs but also often build social relations with their readers and other bloggers.[3] Blog owners or authors often moderate and filter online comments to remove hate speech or other offensive content. There are also high-readership blogs which do not allow comments.",
+      "author": "Avdi",
+      "id": 2
+    },
+    {
+      "title": "Web dev top tips",
+      "body": "The history of scientific discipline spans the majority of the historical record, with the earliest written records of identifiable predecessors to modern science dating to Bronze Age Egypt and Mesopotamia from around 3000 to 1200 BCE. Their contributions to mathematics, astronomy, and medicine entered and shaped the Greek natural philosophy of classical antiquity, whereby formal attempts were made to provide explanations of events in the physical world based on natural causes, while further advancements, including the introduction of the Hindu–Arabic numeral system, were made during the Golden Age of India.[15]: 12 [16][17][18] Scientific research deteriorated in these regions after the fall of the Western Roman Empire during the early middle ages (400 to 1000 CE), but in the Medieval renaissances (Carolingian Renaissance, Ottonian Renaissance and the Renaissance of the 12th century) scholarship flourished again. Some Greek manuscripts lost in Western Europe were preserved and expanded upon in the Middle East during the Islamic Golden Age[19] and later by the efforts of Byzantine Greek scholars who brought Greek manuscripts from the dying Byzantine Empire to Western Europe in the Renaissance.",
+      "author": "Rizvan",
+      "id": 3
+    },
+    {
+      "title": "Panama",
+      "body": "Panama is on fire. Massive protests are rippling across the country. Road blocks. Unions on strike. School classes cancelled. Workers, teachers and indigenous groups are in the streets. They’re protesting the government’s approval of a renegotiated contract with a Canadian mining firm for the operation of Central America’s largest open-pit copper mine.\ndelete blog",
+      "author": "Rizvan",
+      "id": 4
+    }
+  ]
+}

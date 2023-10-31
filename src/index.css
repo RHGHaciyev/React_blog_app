@@ -1,13 +1,131 @@
-body {
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #000;
+
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #4835f1;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar .links a:hover {
+ color: black;
+ transition: 0.3s ease;
+}
+.navbar a:hover {
+  color: #4835f1;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 15px;
+  background: lightgray;
+  border: 1px solid gray;
+}
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 2px solid gray;
+}
+.blog-preview p{
+  font-weight: bold;
+}
+.blog-preview a{
+text-decoration: none;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px gray;
+}
+.blog-preview h2 {
+  font-size: 25px;
+  color: #4835f1;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #4835f1;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 10px 14px;
+  margin: 10px 0;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #4835f1;
+  color: #111;
+  font-weight: bold;
+  font-size: 19px;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create button:hover{
+  color: black;
+  transition: 0.3s ease;
+}
+.blog-details *{
+  margin:10px 0;
+}
+.blog-details button {
+  background: #4835f1;
+  color: black;
+  font-weight: bold;
+  border: 0;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.blog-details button:hover {
+background: red;
+transition: 0.3s ease;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.blog-details p{
+  font-weight: bold;
+}
+.blog-details a{
+text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 25px;
+  color: #4835f1;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
